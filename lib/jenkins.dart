@@ -19,7 +19,8 @@ class Jenkins extends StatelessWidget {
                 semanticsLabel: 'Jenkins Logo'),
           ),
           const DefaultTextStyle(
-            style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+            style: TextStyle(
+                fontSize: 24, fontWeight: FontWeight.bold, color: Colors.black),
             child: Text("欢迎来到 Jenkins！"),
           ),
           const SizedBox(
